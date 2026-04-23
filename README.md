@@ -1,4 +1,13 @@
-# clientsidecoursework
+## Instructions
+1. Clone the repository.
+2. Open NetBeans and select **File > Open Project**.
+3. Choose the cloned project folder and open it.
+4. Right-click the project and select **Clean and Build** before running it.
+5. Make sure Apache Tomcat is installed and configured.
+6. Start the Tomcat server.
+7. Run the project.
+
+ 
 
 1. In my project, JAX-RS resources use a per-request lifecycle, 
 meaning a new instance of classes like SensorRoom or SensorResource is created for every incoming request rather than being a singleton.
@@ -53,3 +62,5 @@ exact points where errors occur. This information can help attackers find weakne
 logging is handled in one place instead of being repeated in every method.
 This makes the code cleaner, easier to maintain, and avoids duplication. It also ensures 
 all requests and responses are logged consistently without missing anything.
+
+
